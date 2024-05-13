@@ -11,7 +11,7 @@ while True:
         display_available_cars()
         desired_car = input('Qual carro você quer comprar? ')
         option_payament = input(type_payament)
-        time_option = input(f"Quantas vzes você deseja fazer? {time_payament}")
+        time_option = int(input(f"Quantas vzes você deseja fazer? {time_payament}"))
         if option_payament == 'C':
             print(credit_payament(desired_car, time_option))
             print(sale(desired_car))

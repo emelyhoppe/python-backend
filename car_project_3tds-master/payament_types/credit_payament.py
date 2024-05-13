@@ -1,10 +1,9 @@
 
-from config import *
-from payament_times.in_time import in_time
-from payament_times.nine_months import nine_months
-from payament_times.six_months import six_months
-from payament_times.three_months import three_months
-from payament_times.twelve_months import twelve_months
+from payament_times.in_time import *
+from payament_times.nine_months import *
+from payament_times.six_months import *
+from payament_times.three_months import *
+from payament_times.twelve_months import *
 
 
 def credit_payament(desired_car, time_option):
